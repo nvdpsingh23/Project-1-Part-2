@@ -1,0 +1,35 @@
+.text-center {
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    width: 100%;
+    font-family: "Lora", serif; 
+
+}
+
+@media screen and (max-width: 1200px) {
+    .text-center {
+        padding: 8px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .text-center {
+        padding: 6px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .text-center {
+        padding: 5px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .text-center {
+        padding: 4px;
+        font-size: 10px;
+    }
+}

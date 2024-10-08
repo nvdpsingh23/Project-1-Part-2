@@ -1,0 +1,81 @@
+.home1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.homeLeft,
+.homeRight {
+    flex: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.homeImg {
+    width: 100%;
+    height: 450px;
+    border-radius: 5px;
+}
+
+.homeHeader {
+    padding-left: 20px; 
+    margin-right: 20px;
+    font-size: 30px;
+    display: flex;
+    font-family: "Josefin Sans", sans-serif;
+    color: #444;
+}
+
+.homeListItem {
+    padding: 20px;
+    font-weight: lighter;
+    font-family: "Varela", sans-serif;
+    color: #444;
+}
+
+@media screen and (max-width: 1200px) {
+    .homeHeader {
+        font-size: 28px;
+    }
+    .homeImg {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .homeHeader {
+        font-size: 26px;
+    }
+    .homeImg {
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .home1 {
+        flex-direction: column;
+    }
+    
+    .homeLeft,
+    .homeRight {
+        flex: 100%;
+        margin-bottom: 20px;
+    }
+
+    .homeHeader {
+        font-size: 24px;
+        padding-left: 10px;
+    }
+    .homeImg {
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .homeHeader {
+        font-size: 20px;
+    }
+    .homeImg {
+        height: 200px;
+    }
+}

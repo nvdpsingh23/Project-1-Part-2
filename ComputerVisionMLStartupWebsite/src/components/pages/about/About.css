@@ -1,0 +1,90 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.about-page {
+  font-family: "Josefin Sans", sans-serif;
+  color: #fff;
+  position: relative;
+  min-height: 100vh;
+}
+
+.about-page .background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('https://img.freepik.com/free-vector/abstract-black-texture-background-hexagon_206725-413.jpg?t=st=1728104201~exp=1728104801~hmac=f8d6faacf59b9a5122fb1a65cd8d3a041db4822f1652565328a9183815aefb2b');
+  background-size: cover;
+  background-position: center;
+  opacity: 01;
+  z-index: -1;
+}
+
+.about-page .content {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-page h1, 
+.about-page h2, 
+.about-page p, 
+.about-page ul {
+  position: relative;
+  z-index: 1;
+}
+
+.about-page h1 {
+  text-align: center;
+  font-size: 36px;
+  margin-top: 40px;
+}
+
+.about-page h2 {
+  color: #fff;
+  margin-top: 30px;
+  font-size: 28px;
+  border-bottom: 2px solid #4A90E2;
+  padding-bottom: 10px;
+}
+
+.about-page p {
+  line-height: 1.8;
+  color: #fff;
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.about-page ul {
+  list-style-type: disc;
+  margin-left: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.about-page ul li {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .about-page .content {
+    padding: 20px;
+  }
+
+  .about-page h1 {
+    font-size: 28px;
+  }
+
+  .about-page h2 {
+    font-size: 24px;
+  }
+
+  .about-page p,
+  .about-page ul {
+    font-size: 14px;
+  }
+}
